@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title> DEVINETTE </title>
+  <link rel="stylesheet" href="jeu.css">
+
+  </head>
+  <body>
+    <h1>DEVINE LE NOMBRE </h1>
+
+    <p> J'ai selectionner un nombre aleatoire compris entre 1 et 100</p><br>
+    <p>Essaye de deviner en 10 tours , je te dirait si ton estimation est trop élevée ou trop basse</p>
+    <h2> A TOI DE JOUER - LETS GO </h2>
+
+
+    <div class="form">
+      <label for="guessField">DONNE TON NOMBRE: </label><input type="text" id="guessField" class="guessField">
+      <input type="submit" value="JOUER" class="guessSubmit">
+    </div>
+
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+  </body>
+    <script type="text/javascript" src="jeu.js"></script>
+  </html>
